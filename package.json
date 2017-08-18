@@ -1,0 +1,21 @@
+{
+  "name": "load-async",
+  "version": "0.0.0",
+  "description": "Load React components asynchronously",
+  "main": "src/index.js",
+  "jsnext:main": "src/index.js",
+  "module": "src/index.js",
+  "repository": "git@github.com:fdaciuk/load-async.git",
+  "author": "Fernando Daciuk - @fdaciuk",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix",
+    "preversion": "yarn lint",
+    "postversion": "npm publish"
+  },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  }
+}
