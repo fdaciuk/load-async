@@ -29,7 +29,7 @@ const App = () => (
 
 You can use `children` if you want to:
 
-```
+```js
 import loadAsync from 'load-async'
 import Header from './header'
 
