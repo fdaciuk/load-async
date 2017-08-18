@@ -14,6 +14,10 @@ or using NPM:
 npm i --save load-async
 ```
 
+## Configuration
+
+Add the `load-async/src` path on JS loader, inside the webpack config file.
+
 ## Usage
 
 ```js
