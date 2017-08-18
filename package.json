@@ -14,7 +14,13 @@
     "preversion": "yarn lint",
     "postversion": "npm publish"
   },
+  "peerDependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1"
+  },
   "devDependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
     "snazzy": "^7.0.0",
     "standard": "^10.0.3"
   }
